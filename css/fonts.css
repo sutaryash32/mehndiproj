@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: "NavbarFont";
+    src: url("../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: "BannerHeading";
+    src: url("../fonts/DMSerifText-Regular.ttf");
+}
+@font-face {
+    font-family: "BannerSubHeading";
+    src: url("../fonts/DMSerifText-Regular.ttf");
+}
+@font-face {
+    font-family: "BannerButton";
+    src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+@font-face {
+    font-family: "FooterHeadingFont";
+    src: url("../fonts/NotoSerif-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: "FooterSubHeadingFont";
+    src: url("../fonts/NotoSerif-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: "HomeHeading";
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+@font-face {
+    font-family: "SmallHomeHeading";
+    src: url("../fonts/Caveat-Bold.ttf");
+}
+@font-face {
+    font-family: "BenefitHeading";
+    src: url("../fonts/Domine-SemiBold.ttf");
+}
+@font-face {
+    font-family: "HomeParaHeading";
+    src: url("../fonts/Courgette-Regular.ttf");
+}
+@font-face {
+    font-family: "testimonialNameHeading";
+    src: url("../fonts/Charm-Bold.ttf");
+}
+@font-face {
+    font-family: "MainHeadingAllExceptHome";
+    src: url("../fonts/Tapestry-Regular.ttf");
+}
+@font-face {
+    font-family: "ParaHeading";
+    src: url("../fonts/HindSiliguri-Regular.ttf");
+}

@@ -1,0 +1,30 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore CDN-related directory
+cdn.jsdelivr.net/
+
+# Ignore fonts and images
+fonts/
+img/
+gettyImg/
+newMehndiImages/
+webfonts/
+
+# Ignore all CSS and JS files
+*.css
+*.js
+
+# Ignore HTML files that might be local or temporary
+index-2.html
+index.html
+about.html
+contact.html
+gallery.html
+services.html
+
+# Ignore README file (if it's only for local use)
+README.md
+
+# Ignore specific temporary or generated files
+${slide.$thumb.html}
