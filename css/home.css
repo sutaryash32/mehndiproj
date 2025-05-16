@@ -48,7 +48,7 @@
 .banner {
   /* background-color: #06ff00; */
   background: url("../gettyImg/gettyimages-183288557-2048x2048.jpg") no-repeat;
-  height: 100vh;
+  height: 87vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -367,7 +367,9 @@ transition: ease-in-out;
   z-index: 2;
 }
 .simpleItemsMob {
-  display: none;
+  position: relative;
+  bottom: 86px;
+
 }
 @media (max-width: 600px) {
   .simpleItemsDesk {
@@ -375,8 +377,9 @@ transition: ease-in-out;
     z-index: 2;
   }
   .simpleItemsMob {
-    display: block;
+    display: flex;
     z-index: 2;
+    padding: 0px
   }
   .simpleContent img {
     height: 86vh;

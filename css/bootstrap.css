@@ -649,6 +649,12 @@ progress {
 .col {
   flex: 1 0 0%;
 }
+.col-auto{
+  
+  position: relative;
+  right: 76px;
+  
+}
 
 .row-cols-auto > * {
   flex: 0 0 auto;
