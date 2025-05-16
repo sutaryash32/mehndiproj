@@ -1,0 +1,340 @@
+.services-banner-bg {
+  background: url("../gettyImg/gettyimages-183288557-2048x2048.jpg") no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px #020202a1;
+}
+@media only screen and (max-width: 768px) {
+  .services-banner-bg {
+    background-position: center;
+  }
+}
+.servicesItemHeading {
+  padding-top: 125px;
+  text-align: center;
+  color: #fff;
+}
+.servicesItemHeading p {
+  text-transform: uppercase;
+  font-family: "BebasNeue-Regular.ttf";
+  /* font-size: 23px; */
+}
+.servicesItems {
+  display: inline;
+}
+
+/* -----------------Card-----------------------------*/
+.card {
+  width: 190px;
+  height: 254px;
+  /* background: #f0f0f0; */
+  background: transparent;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+  /* background-color: #4bb8ff; */
+  background-color: #fff;
+}
+
+.card .blob {
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  /* background-color: #4bb8ff; */
+  background: #fff;
+  visibility: visible;
+  transition: all 0.3s;
+}
+
+.card:hover .blob {
+  height: 0;
+}
+
+.card .cardImg {
+  display: flex;
+  margin: 30px auto 20px auto;
+  width: 125px;
+  height: 125px;
+  /* background-color: #4bb8ff; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  /* z-index: 5; */
+}
+/* Notice Card Image*/
+.cardImgBridal {
+  background-image: url("../img/service/om1bridal.png");
+}
+.cardImgStylish {
+  background-image: url("../img/service/om2stylish.png");
+}
+.cardImgMarwari {
+  background-image: url("../img/service/om3marwari.png");
+}
+.cardImgArabic {
+  background-image: url("../img/service/om4arabic.png");
+}
+.cardImgKarwaChauth {
+  background-image: url("../newMehndiImages/karwachuth.jpg");
+}
+.cardImgIndian {
+  background-image: url("../img/istockphoto-1605676118-612x612.jpg");
+}
+.cardImg3D {
+  background-image: url("../newMehndiImages/l3.jpg");
+}
+.cardImgEngagement {
+  background-image: url("../img/service/om8engagement.png");
+}
+.cardImgWesternStyle {
+  background-image: url("../img/service/om9western.png");
+}
+.cardImgBlackOutline {
+  background-image: url("../img/service/om10black_outline.png");
+}
+.cardImgGlitter {
+  background-image: url("../img/service/om11glitter.png");
+}
+.cardImgMoroccan {
+  background-image: url("../img/service/om12moroccan.png");
+}
+/* Notice End */
+
+.card:hover .cardImg {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  z-index: 5;
+}
+
+.card .cardText {
+  /* padding: 15px 10px; */
+  font-size: 28px;
+  transition: all 0.1s;
+  z-index: 99;
+  color: #fff;
+  line-height: 10px;
+}
+
+.card .cardText #secondLine {
+  font-size: 16px;
+  line-height: 0;
+}
+.card .cardText #thirdLine {
+  font-size: 14px;
+  line-height: 0;
+}
+
+.card:hover .cardText {
+  /* opacity: 0; */
+  display: none;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.card .readMore {
+  /* opacity: 0; */
+  transition: all 0.75s;
+  display: none;
+}
+.card:hover .readMore {
+  position: absolute;
+  bottom: 10px;
+  left: 13px;
+  opacity: 1;
+  transition: all 0.1s;
+  display: block;
+}
+/* Card Button */
+.readMoreBtn {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.readMoreBtn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #864646;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.readMoreBtn span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #6c1111;
+}
+
+.readMoreBtn svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #6c1111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.readMoreBtn:hover:before {
+  width: 100%;
+  background: #c99b9b;
+}
+
+.readMoreBtn:hover svg {
+  transform: translateX(0);
+}
+
+.readMoreBtn:active {
+  transform: scale(0.95);
+}
+/* Card Button End */
+/* -------------Card End------------------- */
+/* Modal */
+.modal-header {
+  
+  background-color: #420303;
+  border-bottom: none;
+  color: #fff;
+  
+}
+.modal-body {
+  padding: 0px 0px 2px 0px;
+  user-select: none;
+}
+.modalImg img {
+  width: 100%;
+  height: 69vh;
+  padding-bottom: 5px;
+}
+@media (max-width: 900px) {
+  .modalImg img {
+    height: auto;
+  }
+}
+.modalDescription h6 {
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 11px;
+  font-family: "SubHeadingProduct";
+  color: #6c1111;
+}
+.modalDescription p {
+  font-size: 16px;
+  font-family: "ParaHeading";
+  color: #6c757d !important;
+  text-align: justify;
+}
+.modalDescription h6::after {
+  content: "★";
+  font-family: "Font Awesome 5 Free";
+  color: #6c1111;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0;
+  /* width: 14%; */
+  width: calc((100vw) - 88vw);
+  border-bottom: solid 1px #6c1111;
+  margin: 22px auto 0px auto;
+}
+.priceDescription h6 {
+  text-align: center;
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 11px;
+  font-family: "SubHeadingProduct";
+  color: #6c1111;
+}
+.priceDescription h6::after {
+  content: "★";
+  font-family: "Font Awesome 5 Free";
+  color: #6c1111;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0;
+  width: calc((100vw) - 88vw);
+  border-bottom: solid 1px #6c1111;
+  margin: 22px auto 0px auto;
+}
+.priceDescription .contentText {
+  line-height: 5px;
+}
+.contentText .heading {
+  color: #6c757d !important;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.contentText .pera {
+  color: #000 !important;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.oneLine {
+  font-size: 16px;
+  font-family: "ParaHeading";
+  text-transform: capitalize;
+}
+.modalButton1 {
+  text-align: center;
+  margin: 25px 0px 25px 0px;
+}
+.modalButton2 {
+  text-align: center;
+  margin: 25px 0px 25px 0px;
+}
+.btn-outline-custom1 {
+  color: #fff;
+  background-color: #0f0e0e;
+  border-color: #0f0e0e;
+  font-size: 2rem;
+}
+.btn-outline-custom1:hover {
+  color: #0f0e0e;
+  background-color: #fff;
+  border-color: #0f0e0e;
+}
+.btn-custom2 {
+  color: #fff;
+  background-color: #2d9220;
+  border-color: #2d9220;
+  font-size: 2rem;
+}
+.btn-custom2:hover {
+  color: #fff;
+  background-color: #2ac416;
+  border-color: #36ed1d;
+}

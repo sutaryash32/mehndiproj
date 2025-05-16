@@ -1,0 +1,120 @@
+.gallery-banner-bg {
+  background: url("../gettyImg/gettyimages-183288557-2048x2048.jpg") no-repeat;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px #020202a1;
+}
+@media only screen and (max-width: 768px) {
+  .gallery-banner-bg {
+    background-position: center;
+  }
+}
+/* margin from Top */
+.marginTopBox {
+  padding-top: 90px;
+}
+.gallery {
+  padding-bottom: 25px;
+}
+.galleryHeading {
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  /* font-size: 35px; */
+  font-family: "MainHeadingAllExceptHome";
+  text-transform: uppercase;
+}
+
+.itemGallery {
+  transition: 0.5s ease-in-out;
+}
+.itemGallery:hover {
+  filter: brightness(40%);
+}
+
+/* FancyBox Section */
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
+.fancybox__backdrop::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  filter: blur(2px);
+  left: 50%;
+  top: 50%;
+  transform: scale(11);
+  opacity: 0.3;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fancybox__container {
+  /* --fancybox-bg: #000; */
+  --fancybox-bg: linear-gradient(to right top, #1f1d36, #090910);
+
+  --fancybox-thumbs-width: 48px;
+  --fancybox-thumbs-ratio: 1;
+
+  /* --carousel-button-bg: rgb(91 78 76 / 74%); */
+  --carousel-button-bg: linear-gradient(to right top, #0b4619, #079929);
+
+  --carousel-button-svg-width: 24px;
+  --carousel-button-svg-height: 24px;
+
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.fancybox__nav {
+  --carousel-button-svg-width: 24px;
+  --carousel-button-svg-height: 24px;
+}
+
+.fancybox__nav .carousel__button.is-prev {
+  left: 20px;
+}
+
+.fancybox__nav .carousel__button.is-next {
+  right: 20px;
+}
+
+.carousel__button.is-close {
+  right: auto;
+  top: 20px;
+  left: 20px;
+}
+
+.fancybox__slide {
+  padding: 8px 88px;
+}
+
+/* Thumbnails */
+.fancybox__thumbs .carousel__slide {
+  padding: 8px 8px 16px 8px;
+}
+
+.is-nav-selected::after {
+  display: none;
+}
+
+.fancybox__thumb {
+  border-radius: 6px;
+  opacity: 0.4;
+}
+
+.fancybox__thumb:hover,
+.is-nav-selected .fancybox__thumb {
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.is-nav-selected .fancybox__thumb::after {
+  display: none;
+}
+/* FancyBox Section End */
