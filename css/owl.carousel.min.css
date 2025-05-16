@@ -15,6 +15,7 @@
     display: flex;
     width: 100%;
     z-index: 0
+    
 }
 
 .owl-carousel .owl-stage {
@@ -59,6 +60,8 @@
 .owl-carousel .owl-item img {
     display: block;
     width: 100%
+    
+
 }
 
 .owl-carousel .owl-dots.disabled,

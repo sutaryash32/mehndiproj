@@ -270,7 +270,7 @@
 
 /* horizontal Line */
 .HoriLine {
-  border: #000000 solid 1px;
+  border: maroon 0.5px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -545,15 +545,17 @@
 /* Footer Mob  */
 .footerMob {
   display: none;
-  justify-content: space-between;
+  margin-top: 90px;
+  
   background-color: rgb(66, 2, 2);
 }
-
+@media (max-width: 436px){
 .mobileMenuBox {
   position: relative;
   padding: 0px 0px 0 2px;
   
 }
+
 .footerContentMobileMenu {
   padding: 10px 0px 0px 0px;
   text-align: left;
@@ -566,6 +568,7 @@
 .footerFollowMobileMenu a {
   padding: 0px 30px 0px 0px;
   color: #fff;
+}
 }
 @media (max-width: 436px) {
   .footerFollowMobileMenu a {

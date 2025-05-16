@@ -332,12 +332,14 @@ transition: ease-in-out;
 
 /* Simple or Example */
 .simple {
+  
   height: 78vh;
   z-index: 2;
 }
 .simpleText {
   z-index: 2;
   position: relative;
+ 
 }
 .simpleText::after {
   position: absolute;
@@ -367,8 +369,8 @@ transition: ease-in-out;
   z-index: 2;
 }
 .simpleItemsMob {
-  position: relative;
-  bottom: 86px;
+  display: none;
+
 
 }
 @media (max-width: 600px) {
@@ -377,9 +379,10 @@ transition: ease-in-out;
     z-index: 2;
   }
   .simpleItemsMob {
-    display: flex;
+    display: block;
     z-index: 2;
-    padding: 0px
+    
+    
   }
   .simpleContent img {
     height: 86vh;
