@@ -478,8 +478,8 @@
 }
 /* Button */
 .footerButton {
-  padding: 0px 5px 0px 0px;
-  z-index: 3;
+  padding: 0px 0px 0px 266px;
+  z-index: 2;
 }
 .btn-floating {
   border-radius: 5px 15px;

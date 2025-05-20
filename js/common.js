@@ -24,13 +24,13 @@ function loadingFunction() {
 }
 
 // Auto Typed Text
-var typed = new Typed(".auto-type", {
+// var typed = new Typed(".auto-type", {
   
-  strings: [" Welcome To " + "Dileep Mehandi"],
-   typeSpeed: 100,
-  backSpeed: 50,
-  loop: true,
-});
+//   strings: [" Welcome To " + "Dileep Mehandi"],
+//    typeSpeed: 0,
+//   backSpeed: 50,
+//   loop: false,
+// });
 
 
 subHead.onclick = ()=>{
