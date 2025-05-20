@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a06fda71-2043-49bc-be9b-099d23906ecb/deploy-status?branch=main)](https://app.netlify.com/projects/clever-tarsier-3d4b1e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dcebbd11-dce0-441e-bdae-6c3305d544d3/deploy-status)](https://app.netlify.com/projects/dileepmehandi/deploys)
