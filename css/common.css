@@ -669,12 +669,12 @@
   border-radius: 11px;
   box-shadow: -5px -5px 11px #040e0f, 5px 5px 11px #103a3b;
 }
-.callUs a {
+/* .callUs a {
   position: absolute;
   bottom: 10px;
   left: 22px;
   color: #fff;
-}
+} */
 /* ------------------------ */
 .iconWhats {
   font-size: 25px;
@@ -688,12 +688,12 @@
   background: #25d366;
   box-shadow: -5px -5px 11px #0f5429, 5px 5px 11px #3bffa3;
 }
-.whatsappMe a {
-  position: absolute;
+/* .whatsappMe a {
+  position:none;
   bottom: 10px;
   right: 22px;
   color: #fff;
-}
+} */
 /* whatsapp or call desktop end */
 
 /* whatsapp or call mobile */
@@ -718,7 +718,7 @@
 }
 @media (max-width: 915px) {
   .deskCallWhats {
-    display: block;
+    display: none;
   }
   .mobCallWhats {
     display: block;
