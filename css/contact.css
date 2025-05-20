@@ -37,7 +37,7 @@
 /* Card */
 .contactCard {
   background-color: #86b7fe;
-  color: ;
+  color:white ;
   border: none;
   border-radius: 1rem;
   text-align: center;
@@ -100,7 +100,7 @@
   color: #fff;
 }
 div h1 {
-  font-family: "DMSerifText-Regular.ttf";
+  font-family: "Radley-Regular.ttf";
   font-size: 8vw;
 }
 div p {

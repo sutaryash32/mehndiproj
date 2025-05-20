@@ -51,7 +51,7 @@
 .banner {
   /* background-color: #06ff00; */
   background: url("../gettyImg/gettyimages-183288557-2048x2048.jpg") no-repeat;
-  height: 87vh;
+  height: 135vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -558,39 +558,17 @@ transition: ease-in-out;
 }
 /* Testimonials Section End */
 
-@media (max-width: 2500px) {
-  .benefits {
-    height: none;
-  }
-  .simple {
-    height: 42vh;
-  }
-  .testimonials {
-    height: none;
-  }
-}
 
-@media (max-width: 1300px) {
-  .benefits {
-    height: none;
-  }
-  .simple {
-    height: 63vh;
-  }
-  .simpleContent img {
-    height: none;
-  }
-  .testimonials {
-    height: none;
-  }
-}
+
+
 
 @media (max-width: 1050px) {
   .benefits {
     height: none;
   }
   .simple {
-    height: 76vh;
+    position: relative;
+    height: 90vh;
   }
   .simpleContent img {
     height: none;
