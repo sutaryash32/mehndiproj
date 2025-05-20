@@ -60,7 +60,7 @@
 }
 .auto-type {
   
-  color: rgb(251, 214, 2);
+  color: rgb(216, 216, 29);
   
 
     padding-bottom: 100px;
@@ -558,6 +558,33 @@ transition: ease-in-out;
 }
 /* Testimonials Section End */
 
+@media (max-width: 2500px) {
+  .benefits {
+    height: none;
+  }
+  .simple {
+    height: 42vh;
+  }
+  .testimonials {
+    height: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .benefits {
+    height: none;
+  }
+  .simple {
+    height: 63vh;
+  }
+  .simpleContent img {
+    height: none;
+  }
+  .testimonials {
+    height: none;
+  }
+}
+
 @media (max-width: 1050px) {
   .benefits {
     height: none;
@@ -610,12 +637,12 @@ transition: ease-in-out;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .benefits {
     height: none;
   }
   .simple {
-    height: 76vh;
+    height: 77vh;
   }
   .testimonials {
     height: none;

@@ -501,10 +501,20 @@
 /* .btn-outline-footer:hover {
   border: none;
 } */
+
+
 .btn-outline-footer span {
   display: block;
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 2500px)  {
+  .btn-outline-footer span {
+    display: block;
+    margin-left: 2.4em;
+    transition: all 0.3s ease-in-out;
+  } 
+  
 }
 
 .btn-outline-footer svg {
@@ -714,7 +724,7 @@
 .mobCallWhats {
   display: none;
 }
-@media (max-width: 863px) {
+@media (max-width: 900px) {
   .deskCallWhats {
     display: none;
   }
