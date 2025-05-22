@@ -21,13 +21,15 @@
   
 
 }
-.galleryHeading {
+.galleryHeading p {
   text-align: center;
   color: #fff;
   padding-top: 25px;
   /* font-size: 35px; */
-  font-family: "MainHeadingAllExceptHome";
+  font-family: "DMSerifText-Regular.ttf";
   text-transform: uppercase;
+  font-size: 8vw;
+  
 }
 
 .itemGallery {
