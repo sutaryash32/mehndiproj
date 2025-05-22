@@ -150,7 +150,7 @@
 .card .readMore {
   /* opacity: 0; */
   transition: all 0.75s;
-  display: none;
+  opacity: 10;
 }
 .card:hover .readMore {
   position: absolute;
