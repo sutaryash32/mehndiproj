@@ -562,13 +562,13 @@ transition: ease-in-out;
 
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1280px) {
   .benefits {
     height: none;
   }
   .simple {
     position: relative;
-    height: 90vh;
+    height: 54vh;
   }
   .simpleContent img {
     height: none;
@@ -583,7 +583,8 @@ transition: ease-in-out;
     height: none;
   }
   .simple {
-    height: 33vh;
+    position: relative;
+    height: 75vh;
   }
   .testimonials {
     height: none;
@@ -595,7 +596,9 @@ transition: ease-in-out;
     height: none;
   }
   .simple {
-    height: 31vh;
+   
+    height: 36vh;
+    position: relative;
   }
   .testimonials {
     height: none;
@@ -608,7 +611,20 @@ transition: ease-in-out;
     height: none;
   }
   .simple {
-    height: 35vh;
+    position: relative;
+    height: 60vh;
+  }
+  .testimonials {
+    height: none;
+  }
+}
+@media (max-width: 600px) {
+  .benefits {
+    height: none;
+  }
+  .simple {
+    position: relative;
+    height: 84vh;
   }
   .testimonials {
     height: none;
@@ -620,19 +636,22 @@ transition: ease-in-out;
     height: none;
   }
   .simple {
-    height: 77vh;
+    position: relative;
+    height: 84vh;
   }
   .testimonials {
     height: none;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 300px) {
   .benefits {
     height: none;
   }
   .simple {
-    height: 73vh;
+    position: relative;
+    height: 84vh;
+    
   }
   .testimonials {
     height: none;
