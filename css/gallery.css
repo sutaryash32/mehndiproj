@@ -16,7 +16,10 @@
   padding-top: 90px;
 }
 .gallery {
+  position: relative ;
   padding-bottom: 25px;
+  
+
 }
 .galleryHeading {
   text-align: center;

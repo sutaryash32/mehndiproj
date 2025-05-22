@@ -562,13 +562,13 @@ transition: ease-in-out;
 
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1366px) {
   .benefits {
     height: none;
   }
   .simple {
     position: relative;
-    height: 54vh;
+    height: 60vh;
   }
   .simpleContent img {
     height: none;
