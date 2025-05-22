@@ -547,7 +547,7 @@
 /* Footer Mob  */
 .footerMob {
   display: none;
-  margin-top: 90px;
+  margin-top: 2vh;
   
   background-color: rgb(66, 2, 2);
 }

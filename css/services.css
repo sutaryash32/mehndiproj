@@ -19,7 +19,7 @@
 .servicesItemHeading p {
   text-transform: uppercase;
   font-family: "BebasNeue-Regular.ttf";
-  /* font-size: 23px; */
+  font-size: 8vw;
 }
 .servicesItems {
   display: inline;
