@@ -340,6 +340,7 @@ transition: ease-in-out;
   height: 78vh;
   z-index: 2;
 }
+
 .simpleText {
   z-index: 2;
   position: relative;
@@ -377,10 +378,12 @@ transition: ease-in-out;
 
 
 }
+
 @media (max-width: 600px) {
   .simpleItemsDesk {
     display: none;
     z-index: 2;
+    
   }
   .simpleItemsMob {
     display: block;
@@ -558,6 +561,18 @@ transition: ease-in-out;
 }
 /* Testimonials Section End */
 
+.simple {
+  height: auto; /* Adjust to fit content */
+  min-height: 200px; /* Prevent excessive shrinking */
+  overflow: hidden; /* Avoid unnecessary space */
+}
+.simple {
+  padding: 10px; /* Reduce padding */
+  margin-bottom: -41vh; /* Ensure no extra space below */
+  display:contents;
+}
+
+
 
 
 
@@ -612,7 +627,8 @@ transition: ease-in-out;
   }
   .simple {
     position: relative;
-    height: 60vh;
+    height: 80vh;
+   
   }
   .testimonials {
     height: none;
