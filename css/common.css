@@ -224,12 +224,15 @@
 }
 .menuList .cancel-btn {
   position: absolute;
-  right: 30px;
-  top: 20px;
+  right: -8vh;
+  top: 6vh;
 }
 @media (max-width: 868px) {
   .icon {
     display: flex;
+    margin-right: 12vh;
+    margin-bottom: 3vh;
+    
     
   }
   /* .icon.hide {
