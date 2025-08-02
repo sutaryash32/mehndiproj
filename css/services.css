@@ -189,7 +189,7 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #6c1111;
+  color: #420202;
 }
 
 .readMoreBtn svg {
@@ -199,7 +199,7 @@
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #6c1111;
+  stroke: #420202;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -247,7 +247,7 @@
   position: relative;
   padding-bottom: 11px;
   font-family: "SubHeadingProduct";
-  color: #6c1111;
+  color: #420202;
 }
 .modalDescription p {
   font-size: 16px;
@@ -258,7 +258,7 @@
 .modalDescription h6::after {
   content: "★";
   font-family: "Font Awesome 5 Free";
-  color: #6c1111;
+  color: #420202;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -266,7 +266,7 @@
   left: 0;
   /* width: 14%; */
   width: calc((100vw) - 88vw);
-  border-bottom: solid 1px #6c1111;
+  border-bottom: solid 1px #420202;
   margin: 22px auto 0px auto;
 }
 .priceDescription h6 {
@@ -275,19 +275,19 @@
   position: relative;
   padding-bottom: 11px;
   font-family: "SubHeadingProduct";
-  color: #6c1111;
+  color: #420202;
 }
 .priceDescription h6::after {
   content: "★";
   font-family: "Font Awesome 5 Free";
-  color: #6c1111;
+  color: #420202;
   position: absolute;
   top: 0px;
   bottom: 0px;
   right: 0px;
   left: 0;
   width: calc((100vw) - 88vw);
-  border-bottom: solid 1px #6c1111;
+  border-bottom: solid 1px #420202;
   margin: 22px auto 0px auto;
 }
 .priceDescription .contentText {
@@ -311,10 +311,12 @@
 .modalButton1 {
   text-align: center;
   margin: 25px 0px 25px 0px;
+  color: #521111 ;
 }
 .modalButton2 {
   text-align: center;
   margin: 25px 0px 25px 0px;
+  color: #521111 ;
 }
 .btn-outline-custom1 {
   color: #fff;
